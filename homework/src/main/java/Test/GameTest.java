@@ -18,6 +18,9 @@ public class GameTest {
             System.err.printf("\"%s\" fails with message \"%s\" %n", scenario, e.getMessage());
         }
     }
+    ///
+
+    ///
     public void testGameTestPlayerIsNulShouldThrowException() {
         String scenario = "V2. Тест класса game";
         try {
