@@ -26,6 +26,8 @@ public class GameTest {
             game.playGame(player1,player2);
             System.out.printf("%s passed %n", scenario);
         } catch (Throwable e) {
+
+
             System.err.printf("%s fails with message  %n", scenario);
         }
     }
