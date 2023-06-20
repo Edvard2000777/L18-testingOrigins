@@ -18,6 +18,9 @@ public class GameTest {
             System.err.printf("\"%s\" fails with message \"%s\" %n", scenario, e.getMessage());
         }
     }
+    ///DZ
+
+    //all in one test
     public void testGameTestPlayerIsNulShouldThrowException() {
         String scenario = "V2. Тест класса game";
         try {
@@ -26,10 +29,12 @@ public class GameTest {
             game.playGame(player1,player2);
             System.out.printf("%s passed %n", scenario);
         } catch (Throwable e) {
+
+
             System.err.printf("%s fails with message  %n", scenario);
         }
     }
-
+  //HWtest
     public static void main(String[] args) {
         new GameTest().testGameTestV1();
         new GameTest().testGameTestPlayerIsNulShouldThrowException();
